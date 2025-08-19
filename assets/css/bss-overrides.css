@@ -1,0 +1,51 @@
+:root, [data-bs-theme=light] {
+  --bs-body-font-family: 'Open Sans', sans-serif;
+  --bs-link-decoration: none;
+}
+
+a {
+  text-decoration: var(--bs-link-decoration);
+}
+
+.pb-3 {
+  padding-bottom: 1rem!important;
+}
+
+.pb-4 {
+  padding-bottom: 1.5rem!important;
+}
+
+.pb-6 {
+  padding-bottom: 4.5rem !important;
+}
+
+@media (min-width: 576px) {
+  .pb-sm-6 {
+    padding-bottom: 4.5rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .pb-md-6 {
+    padding-bottom: 4.5rem !important;
+  }
+}
+
+@media (min-width:992px) {
+  .pb-lg-0 {
+    padding-bottom: 0!important;
+  }
+}
+
+@media (min-width:1200px) {
+  .pb-xl-0 {
+    padding-bottom: 0!important;
+  }
+}
+
+@media (min-width:1400px) {
+  .pb-xxl-0 {
+    padding-bottom: 0!important;
+  }
+}
+
