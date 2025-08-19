@@ -353,3 +353,16 @@
   user-select: none;
 }
 
+@media screen and (max-width: 360px) {
+  .heading-6 {
+    font-size: 9px;
+    font-weight: 900;
+    line-height: 13.5px;
+  }
+}
+
+.heading-1 {
+  font-size: 28px;
+  line-height: 42px;
+}
+
